@@ -1,0 +1,31 @@
+# IDEs
+.idea/
+.vscode/
+
+# CMake / CLion
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+
+# Build folders
+build/
+bin/
+out/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Debug / temp
+*.log
+*.tmp
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db

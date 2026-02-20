@@ -38,12 +38,11 @@ din PowerBank (ex: PowerBankWireless). Se testează în main().
 using namespace std;
 class PowerBank {
 private:
-    char* culoare;
     int capacitate;
-    float greutate;
     int nrPorturi;
     static int nrPowerBank;
-
+    float greutate;
+    char* culoare;
 public:
     PowerBank() : capacitate(0), greutate(0), nrPorturi(0) {
         culoare = nullptr;
@@ -123,9 +122,7 @@ public:
 
 // template exemplificare
 template <class T>
-T maxim(T a, T b) {
-    return (a > b ? a : b);
-}
+T maxim(T a, T b) {return (a > b ? a : b);}
 
 
 
